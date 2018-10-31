@@ -108,24 +108,24 @@
 
 
 
-  <meta name="description" content="真好！date: 2018-10-18 23:19:38 tags:">
+  <meta name="description" content="int MathLearn(){ int i,j,t,c,C; char a; srand((unsigned)time( NULL )); for(i=0;i&amp;lt;10;i++); for(j=0;j&amp;lt;10;j++); i=rand()%10+1; j=rand()%10+1; t=rand()%4; if(t==0)  {a=&amp;apos;+&amp;apos;;c=i+j;} if(t==1">
 <meta property="og:type" content="article">
-<meta property="og:title" content="体验博客">
-<meta property="og:url" content="http://yoursite.com/2018/10/18/第一个体验博客/index.html">
+<meta property="og:title" content="c语言输出随机四则运算（不超过10；减法不能是负数；除法整除且合理）">
+<meta property="og:url" content="http://yoursite.com/2018/10/31/四则运算c/index.html">
 <meta property="og:site_name" content="super超 Blog">
-<meta property="og:description" content="真好！date: 2018-10-18 23:19:38 tags:">
+<meta property="og:description" content="int MathLearn(){ int i,j,t,c,C; char a; srand((unsigned)time( NULL )); for(i=0;i&amp;lt;10;i++); for(j=0;j&amp;lt;10;j++); i=rand()%10+1; j=rand()%10+1; t=rand()%4; if(t==0)  {a=&amp;apos;+&amp;apos;;c=i+j;} if(t==1">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-10-31T11:05:53.263Z">
+<meta property="og:updated_time" content="2018-10-31T11:08:14.973Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="体验博客">
-<meta name="twitter:description" content="真好！date: 2018-10-18 23:19:38 tags:">
+<meta name="twitter:title" content="c语言输出随机四则运算（不超过10；减法不能是负数；除法整除且合理）">
+<meta name="twitter:description" content="int MathLearn(){ int i,j,t,c,C; char a; srand((unsigned)time( NULL )); for(i=0;i&amp;lt;10;i++); for(j=0;j&amp;lt;10;j++); i=rand()%10+1; j=rand()%10+1; t=rand()%4; if(t==0)  {a=&amp;apos;+&amp;apos;;c=i+j;} if(t==1">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/10/18/第一个体验博客/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/10/31/四则运算c/"/>
 
 
 
@@ -135,7 +135,7 @@
   };
 </script>
 
-  <title>体验博客 | super超 Blog</title>
+  <title>c语言输出随机四则运算（不超过10；减法不能是负数；除法整除且合理） | super超 Blog</title>
   
 
 
@@ -300,7 +300,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/18/第一个体验博客/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/31/四则运算c/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="superCHAO">
@@ -317,7 +317,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">体验博客
+          <h1 class="post-title" itemprop="name headline">c语言输出随机四则运算（不超过10；减法不能是负数；除法整除且合理）
               
             
           </h1>
@@ -342,24 +342,12 @@
                 
               
 
-              <time title="创建时间：2018-10-18 23:19:38" itemprop="dateCreated datePublished" datetime="2018-10-18T23:19:38+08:00">2018-10-18</time>
+              <time title="创建时间：2018-10-31 19:05:08 / 修改时间：19:08:14" itemprop="dateCreated datePublished" datetime="2018-10-31T19:05:08+08:00">2018-10-31</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-10-31 19:05:53" itemprop="dateModified" datetime="2018-10-31T19:05:53+08:00">2018-10-31</time>
               
             
           </span>
@@ -372,7 +360,7 @@
 
           
           
-             <span id="/2018/10/18/第一个体验博客/" class="leancloud_visitors" data-flag-title="体验博客">
+             <span id="/2018/10/31/四则运算c/" class="leancloud_visitors" data-flag-title="c语言输出随机四则运算（不超过10；减法不能是负数；除法整除且合理）">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -411,8 +399,35 @@
       
 
       
-        <h2 id="真好！"><a href="#真好！" class="headerlink" title="真好！"></a>真好！</h2><p>date: 2018-10-18 23:19:38</p>
-<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>
+        <p>int MathLearn()<br>{</p>
+<pre><code>int i,j,t,c,C;
+char a;
+srand((unsigned)time( NULL ));
+for(i=0;i&lt;10;i++);
+for(j=0;j&lt;10;j++);
+i=rand()%10+1;
+j=rand()%10+1;
+t=rand()%4;
+if(t==0) 
+{a=&apos;+&apos;;c=i+j;}
+if(t==1 &amp;&amp; i&gt;=j)
+{a=&apos;-&apos;;c=i-j;}
+if(t==2) 
+{a=&apos;x&apos;;c=i*j;}
+if(t==3 &amp;&amp; j!=0)
+{
+    if(i%j==0)
+    {a=&apos;/&apos;;c=i/j;}
+    else printf(&quot;请重新打开\n&quot;);
+    return 0;
+}
+printf(&quot;%d%c%d=&quot;,i,a,j);
+scanf(&quot;%d&quot;,&amp;C);
+if(C==c)
+{printf(&quot;Right\n&quot;);}
+else printf(&quot;Not Correct!Try again!\n&quot;);
+return 1;
+</code></pre><h2 id=""><a href="#" class="headerlink" title="}"></a>}</h2><h2 id="date-2018-10-31-19-05-00"><a href="#date-2018-10-31-19-05-00" class="headerlink" title="date: 2018-10-31 19:05:00"></a>date: 2018-10-31 19:05:00</h2>
       
     </div>
 
@@ -433,7 +448,7 @@
     <strong>本文作者： </strong>superCHAO</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://yoursite.com/2018/10/18/第一个体验博客/" title="体验博客">http://yoursite.com/2018/10/18/第一个体验博客/</a>
+    <a href="http://yoursite.com/2018/10/31/四则运算c/" title="c语言输出随机四则运算（不超过10；减法不能是负数；除法整除且合理）">http://yoursite.com/2018/10/31/四则运算c/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
@@ -453,15 +468,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/10/30/贪吃蛇c/" rel="next" title="c语言编写贪吃蛇">
+                <i class="fa fa-chevron-left"></i> c语言编写贪吃蛇
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/10/30/随机c/" rel="prev" title="c语言输出随机数">
-                c语言输出随机数 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -585,7 +600,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#真好！"><span class="nav-number">1.</span> <span class="nav-text">真好！</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tags"><span class="nav-number">2.</span> <span class="nav-text">tags:</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text">}</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#date-2018-10-31-19-05-00"><span class="nav-number">2.</span> <span class="nav-text">date: 2018-10-31 19:05:00</span></a></li></ol></div>
             
 
           </div>
